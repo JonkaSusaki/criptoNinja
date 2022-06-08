@@ -1,0 +1,51 @@
+{
+  "section1": {
+    "titulo": "Método Carteira Ninja",
+    "botao": {
+      "span1": "QUERO RECEBER",
+      "span2": "AS MELHORES OPORTUNIDADES"
+    },
+    "descricao": {
+      "paragrafo1": "Descubra as melhores oportunidades do mercado de criptomoedas e NFT.",
+      "paragrafo2": "Receba semanalmente insights e notícias exclusivas que fazem a diferença entre aventureiros e investidores de sucesso!"
+    }
+  },
+  "section2": {
+    "titulo": {
+      "span": "O QUE VOCÊ VAI ",
+      "strong": "RECEBER:"
+    },
+    "subtitulo": {
+      "texto1": "Relatórios semanais com",
+      "strong": "informações exclusivas",
+      "texto2": "do mercado: "
+    },
+    "cards": {
+      "card1": {
+        "span1": "INTRODUÇÃO ",
+        "span2": "DA SEMANA"
+      },
+      "card2": {
+        "span1": "PRINCIPAIS ",
+        "span2": "NOTÍCIAS"
+      },
+      "card3": {
+        "span1": "DADOS ",
+        "span2": "ON-CHAIN"
+      },
+      "card4": {
+        "span1": "ANÁLISE ",
+        "span2": "TÉCNICA"
+      },
+      "card5": {
+        "span1": "NOTÍCIAS ",
+        "span2": "NFT"
+      },
+      "card6": {
+        "span1": "MINTS ",
+        "span2": "DA SEMANA"
+      }
+    },
+    "bonus": "BÔNUS"
+  }
+}
