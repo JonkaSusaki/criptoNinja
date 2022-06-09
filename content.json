@@ -1,6 +1,6 @@
 {
   "section1": {
-    "titulo": "Método Carteira Ninja",
+    "titulo": "Método Carteira Nin]ja",
     "botao": {
       "span1": "QUERO RECEBER",
       "span2": "AS MELHORES OPORTUNIDADES"
@@ -47,5 +47,47 @@
       }
     },
     "bonus": "BÔNUS"
+  },
+  "section3": {
+    "parte1": {
+      "titulo": {
+        "span1": "GRUPO TELEGRAM  ",
+        "span2": "EXCLUSIVO"
+      },
+      "texto": {
+        "span1": "TROCA DE INSIGHTS",
+        "span2": "MINTS DO DIA (NFT)"
+      }
+    },
+    "parte2": {
+      "titulo": {
+        "span1": "LIVES ",
+        "span2": "MENSAIS"
+      },
+      "texto": {
+        "span1": "Toda última semana do mês, ",
+        "span2": "uma live para falar sobre ",
+        "span3": "o mercado junto com ",
+        "span4": "os integrantes do curso",
+        "span5": "Carteira Ninja"
+      }
+    },
+    "botao": "QUERO RECEBER TODOS OS BÔNUS"
+  },
+  "section4": {
+    "titulo": "MEUS ALUNOS",
+    "botao": "QUERO FAZER PARTE"
+  },
+  "section5": {
+    "titulo": {
+      "span1": "GARANTIA",
+      "strong": "RISCO-ZERO"
+    },
+    "subtitulo": "O RISCO É TODO MEU!",
+    "texto": {
+      "span1": "Se você assinar e não gostar do conteúdo, você tem 7 dias para pedir seu dinheiro de volta.",
+      "span2": "Acho muito difícil você não gostar do conteúdo que vai receber, mas quero te dar essa segurança! "
+    },
+    "botao": "QUERO COMPRAR COM RISCO-ZERO"
   }
 }
