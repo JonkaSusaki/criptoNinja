@@ -1,6 +1,6 @@
 {
   "section1": {
-    "titulo": "Método Carteira Ninja",
+    "titulo": "Comunidade Cripto Ninja",
     "botao": {
       "span1": "QUERO RECEBER",
       "span2": "AS MELHORES OPORTUNIDADES"
@@ -44,6 +44,14 @@
       "card6": {
         "span1": "MINTS ",
         "span2": "DA SEMANA"
+      },
+      "card7": {
+        "span1": "OPINIÃO",
+        "span2": "NINJA"
+      },
+      "card8": {
+        "span1": "SORTEIOS",
+        "span2": "WHITELIST"
       }
     },
     "bonus": "BÔNUS"
@@ -51,7 +59,7 @@
   "section3": {
     "parte1": {
       "titulo": {
-        "span1": "GRUPO TELEGRAM  ",
+        "span1": "SERVIDOR DISCORD  ",
         "span2": "EXCLUSIVO"
       },
       "texto": {
@@ -76,7 +84,13 @@
   },
   "section4": {
     "titulo": "MEUS ALUNOS",
-    "botao": "QUERO FAZER PARTE"
+    "botao": "QUERO FAZER PARTE",
+    "videos": [
+      "https://www.youtube.com/embed/tgbNymZ7vqY",
+      "https://www.youtube.com/embed/oebyFdmMB6U",
+      "https://www.youtube.com/embed/ItuZ-dmcye4",
+      "https://www.youtube.com/embed/uTgi8v32E48"
+    ]
   },
   "section5": {
     "titulo": {
@@ -89,5 +103,43 @@
       "span2": "Acho muito difícil você não gostar do conteúdo que vai receber, mas quero te dar essa segurança! "
     },
     "botao": "QUERO COMPRAR COM RISCO-ZERO"
+  },
+  "section6": {
+    "titulo": "PARA QUEM É ESSE RELATÓRIO?",
+    "paragrafos": [
+      "Para investidores de todos os níveis que entendem que os mercados de cripto e NFts são repletos de oportunidades, mas não possuem tempo para analisarem tantos acontecimentos",
+      "Para todas as pessoas que querem atingir sua liberdade financeira ainda nos próximos anos",
+      "Para quem acredita que os investimentos em cripto podem acelerar a construção de patrimônio e realização de sonhos",
+      "Para todas as pessoas que já entenderam que investir em cripto não é sorte ou loteria"
+    ]
+  },
+  "section7": {
+    "titulo": "Kei Shiozawa",
+    "paragrafo1": "Investidor, consultor e educador do mercado de criptomoedas. Apaixonado pela tecnologia blockchain e estudioso desse mercado cheio de oportunidades.",
+    "paragrafo2": "Criador do projeto Criptoninja que tem como missão democratizar o conhecimento e fazer com que mais pessoas possam mudar de vida através de investimentos estratégicos em criptomoedas e NFT’s."
+  },
+  "section8": {
+    "perguntas": [
+      {
+        "p": "Qual a forma de pagamento?",
+        "r": "Cartão de crédito, PIX, Boleto bancário"
+      },
+      {
+        "p": "E se eu me arrepender da compra?",
+        "r": "Você tem 7 dias para pedir seu dinheiro de volta"
+      },
+      {
+        "p": "O conteúdo serve para quem está começando?",
+        "r": "Atende todos os níveis de investidores"
+      },
+      {
+        "p": "Qual o preço para assinar?",
+        "r": "Apenas R$39,00 por mês"
+      },
+      {
+        "p": "Vou poder tirar dúvidas?",
+        "r": "Claro, você vai fazer parte do canal exclusivo no telegram"
+      }
+    ]
   }
 }

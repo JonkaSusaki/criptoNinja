@@ -91,6 +91,20 @@ fetch("./content.json")
     .textContent = data.section2.cards.card6.span1
 
   document
+    .getElementById('section2-card7-span2')
+    .textContent = data.section2.cards.card7.span2
+  document
+    .getElementById('section2-card7-span1')
+    .textContent = data.section2.cards.card7.span1
+
+  document
+    .getElementById('section2-card8-span2')
+    .textContent = data.section2.cards.card8.span2
+  document
+    .getElementById('section2-card8-span1')
+    .textContent = data.section2.cards.card8.span1
+
+  document
     .getElementById('section2-card6-span2')
     .textContent = data.section2.cards.card6.span2
 
@@ -147,10 +161,21 @@ fetch("./content.json")
     document
     .getElementById('section4-titulo')
     .textContent = data.section4.titulo
-
+    
     document
     .getElementById('section4-botao')
     .textContent = data.section4.botao
+
+    const list = document.querySelector(".section4 .student-list")
+
+    data.section4.videos.forEach(item => {
+      const frame = document.createElement("iframe")
+      frame.src = item
+      frame.classList.add("student-video")
+
+      list.appendChild(frame)
+    })
+
     //#endregion
 
     //#region SECTION 5
@@ -172,5 +197,50 @@ fetch("./content.json")
     document
     .getElementById('section5-botao')
     .textContent = data.section5.botao
+    //#endregion
+
+    //#region SECTION 8
+    document
+    .getElementById('section8-titulo')
+    .textContent = data.section6.titulo
+    const ul = document.querySelector(".section8 ul")
+
+    data.section6.paragrafos.forEach((item) => {
+      const li = document.createElement("li");
+      li.innerText = item
+      ul.appendChild(li)
+    })
+    //#endregion
+
+    //#region SECTION 6
+    document
+    .getElementById('section6-titulo')
+    .textContent = data.section7.titulo
+    document
+    .getElementById('section6-paragrafo1')
+    .textContent = data.section7.paragrafo1
+    document
+    .getElementById('section6-paragrafo2')
+    .textContent = data.section7.paragrafo2
+    //#endregion
+
+    //#region SECTION 7
+    const section8 = document.querySelector("section.section7 ul")
+
+    data.section8.perguntas.forEach(item => {
+      const p = document.createElement("span")
+      p.classList.add("pergunta")
+      p.textContent = item.p
+
+      const r = document.createElement("p")
+      r.classList.add("resposta")
+      r.textContent = item.r
+
+      const br = document.createElement("br")
+
+      section8.appendChild(p)
+      section8.appendChild(br)
+      section8.appendChild(r)
+    })
     //#endregion
 });

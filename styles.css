@@ -130,8 +130,8 @@ div.section1 {
 .section1 h1 {
   font-size: 6rem;
   margin-bottom: 15px;
-  font-size: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-size: 'Roboto',sans-serif;
+  font-weight: 600;
 
   z-index: 15;
 }
@@ -602,6 +602,17 @@ b.section2-title {
 
 }
 
+.section2-card7 {
+  background: url("assets/section2card7.webp");
+  background-size: cover;
+  background-position: 85% 30%;
+}
+
+.section2-card8 {
+  background: url("assets/section2card8.png");
+  background-size: cover;
+}
+
 
 h3 {
   color: #fff;
@@ -906,30 +917,28 @@ section.section4 {
 }
 
 .student-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+  gap: 20px;
+
+  width: 100%;
+  padding: 0 50px;
+}
+
+.student-list-container {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  width: 100%;
-  overflow-x: hidden;
+  padding: 20px;
 }
 
-.student-card {
-  background-color: #ededed;
-  border-radius: 20px;
-
-  height: 370px;
-  width: 200px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-  overflow: hidden;
-
-  margin-right: 30px;
-
-  position: relative;
+.student-video {
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  height: 250px;
 }
 
 .student-row {
@@ -1045,6 +1054,13 @@ button.section4:hover {
     font-size: 6rem;
   }
 
+  .student-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
   .student-card {
     height: 300px;
     width: 150px;
@@ -1058,12 +1074,6 @@ button.section4:hover {
     margin-right: 30px;
   
     position: relative;
-  }
-
-  .student-list {  
-    align-items: center;
-    margin: 0;
-    padding-left: 20px;
   }
 
   .student-card span.relato {
