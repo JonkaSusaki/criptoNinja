@@ -1,9 +1,9 @@
 {
   "section1": {
-    "titulo": "Comunidade Cripto Ninja",
+    "titulo": "Comunidade CriptoNinja",
     "botao": {
-      "span1": "QUERO RECEBER",
-      "span2": "AS MELHORES OPORTUNIDADES"
+      "span1": "QUERO FAZER PARTE DA COMUNIDADE",
+      "span2": ""
     },
     "descricao": {
       "paragrafo1": "Descubra as melhores oportunidades do mercado de criptomoedas e NFT.",
@@ -22,8 +22,8 @@
     },
     "cards": {
       "card1": {
-        "span1": "INTRODUÇÃO ",
-        "span2": "DA SEMANA"
+        "span1": "REPORT ",
+        "span2": "NINJA"
       },
       "card2": {
         "span1": "PRINCIPAIS ",
@@ -63,8 +63,8 @@
         "span2": "EXCLUSIVO"
       },
       "texto": {
-        "span1": "TROCA DE INSIGHTS",
-        "span2": "MINTS DO DIA (NFT)"
+        "span1": "Por que DISCORD?",
+        "span2": "O Discord é o meio de comunicação mais utilizado pelos investidores de criptomoedas, pois pelo aplicativo conseguimos organizar em canais diferentes os assuntos que abordamos. Ou seja, não fica tudo desorganizado em um lugar só como no WhatsApp ou no Telegram. Na hora de transmitir uma informação organização é tudo."
       }
     },
     "parte2": {
@@ -105,9 +105,9 @@
     "botao": "QUERO COMPRAR COM RISCO-ZERO"
   },
   "section6": {
-    "titulo": "PARA QUEM É ESSE RELATÓRIO?",
+    "titulo": "PARA QUEM É ESSA COMUNIDADE?",
     "paragrafos": [
-      "Para investidores de todos os níveis que entendem que os mercados de cripto e NFts são repletos de oportunidades, mas não possuem tempo para analisarem tantos acontecimentos",
+      "Para investidores de todos os níveis que entendem que os mercados de cripto e NFTs são repletos de oportunidades, mas não possuem tempo para analisarem tantos acontecimentos",
       "Para todas as pessoas que querem atingir sua liberdade financeira ainda nos próximos anos",
       "Para quem acredita que os investimentos em cripto podem acelerar a construção de patrimônio e realização de sonhos",
       "Para todas as pessoas que já entenderam que investir em cripto não é sorte ou loteria"

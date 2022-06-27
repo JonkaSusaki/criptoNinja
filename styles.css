@@ -748,6 +748,14 @@ h3 {
     font-size: 2.5rem;
   }
 
+  #section3-texto1-span2 {
+    font-size: 2rem;
+  }
+
+  #section3-p1 {
+    padding: 0 20%;
+  }
+
   .section3 h4 .subtitulo {
     font-size: 1.5em;
     margin-top: -20px;
@@ -1352,11 +1360,11 @@ section.section7 {
 }
 
 .pergunta {
-  font-size: 4.3rem;
+  font-size: 3.5rem;
 }
 
 .resposta {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-top: 10px;
   margin-bottom: 35px;
 }
