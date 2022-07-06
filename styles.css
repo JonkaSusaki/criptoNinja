@@ -1005,7 +1005,7 @@ section.section4 {
 .student-video {
   border-radius: 8px;
   border: none;
-  height: 500px;
+  width: 30%;
 }
 
 .video-row {
@@ -1478,6 +1478,10 @@ section.section7 {
   top: 0%;
 
   transform: translateY(-95%);
+}
+
+.section7 ul {
+  align-self: flex-start;
 }
 
 a.section7 {
