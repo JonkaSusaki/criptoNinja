@@ -166,15 +166,15 @@ fetch("./content.json")
     .getElementById('section4-botao')
     .textContent = data.section4.botao
 
-    const list = document.querySelector(".section4 .student-list")
+    // const list = document.querySelector(".section4 .student-list")
 
-    data.section4.videos.forEach(item => {
-      const frame = document.createElement("iframe")
-      frame.src = item
-      frame.classList.add("student-video")
+    // data.section4.videos.forEach(item => {
+    //   const frame = document.createElement("iframe")
+    //   frame.src = item
+    //   frame.classList.add("student-video")
 
-      list.appendChild(frame)
-    })
+    //   list.appendChild(frame)
+    // })
 
     //#endregion
 

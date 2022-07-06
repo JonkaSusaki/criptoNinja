@@ -218,6 +218,7 @@ button.section1:hover {
 @media(max-width: 990px) {
   section.section1 {
     padding: 0 25px;
+    margin-bottom: 50px;
   }
 
   .section1-border {
@@ -314,7 +315,7 @@ button.section1:hover {
   }
 
   .section1 img {
-    height: 100%;
+    height: 100vh;
   }
 
   .sombra-section1 .sombra {
@@ -332,16 +333,19 @@ button.section1:hover {
     flex-direction: column;
     padding: 0;
     height: 90vh;
+
+    margin-bottom: 70px;
   }
 
   .section1-content1 {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 140px;
     align-items: center;
+    
   }
 
   h1 {
-    font-size: 7rem;
+    font-size: 3rem;
     text-align: center;
   }
 
@@ -355,14 +359,13 @@ button.section1:hover {
 
   .section1-content2 {
     width: 100%;
-    font-size: 2rem;
-    margin-top: 0px;
+    font-size: 1.5rem;
     text-align: center;
     margin-left: 0;
   }
 
   .section1 img {
-    height: 80%;
+    height: 90vh;
   }
 
   .section1-section2-back {
@@ -374,6 +377,8 @@ button.section1:hover {
   section.section1 {
     padding: 0;
     height: 80vh;
+
+    margin-bottom: 100px;
   }
 
   .section1-border {
@@ -381,7 +386,7 @@ button.section1:hover {
   }
 
   .section1-border img {
-    height: 75vh;
+    height: 80vh;
   }
 
   .section1-content2 {
@@ -411,6 +416,19 @@ button.section1:hover {
     padding-top: 7px;
   }
 
+}
+
+@media (max-width: 400px) {
+  h1#section1-h1 {
+    font-size: 3rem;
+  }
+  .section1-span1 {
+    font-size: 2rem;
+  }
+  
+  .section1-span2 {
+    font-size: 1.5rem;
+  }
 }
 
 /* ============================== */
@@ -703,7 +721,9 @@ h3 {
 
 @media(max-width: 500px) {
 
-
+  .section2-title {
+    font-size: 4rem;
+  }
   .section2-subtitle {
     font-size: 1.8rem;
   }
@@ -778,7 +798,8 @@ h3 {
     width: auto;
   }
 
-  button.section3 {
+  .section3-botao {
+    text-align: center;
     margin-top: 30px;
 
     margin-bottom: 30px;
@@ -802,7 +823,7 @@ h3 {
   }
 
   
-  button.section3:hover {
+  .section3-botao:hover {
     background-color: #1a405c
   }
 
@@ -828,6 +849,30 @@ h3 {
 
 
 @media (max-width: 890px) {
+  section.section3 {
+    padding-top: 70px;
+  }
+
+  h4 .titulo {
+    font-size: 4rem;
+  }
+  h4 .subtitulo {
+    font-size: 4rem;
+  }
+
+  #section3-p1 {
+    padding: 0 10%;
+    font-size: 2rem;
+  }
+
+  .section3-subtitle {
+    width: 50%;
+  }
+
+  #section3-texto1-span2 {
+    font-size: 1.5rem;
+  }
+
 
   .section3-img {
     height: 60%;
@@ -838,33 +883,41 @@ h3 {
   .section3-content1 {
     flex-direction: column;
     margin-top: 20px;
+    height: auto;
   }
   .section3-subtitle p {
     margin-bottom: 50px;
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .content1-media {
     flex-direction: column-reverse;
-    margin-top: 150px;
     margin-bottom: 120px;
   }
-  button.section3 {
+  .section3-botao {
     font-size: 4rem;
   }
 
   .section3-img {
-    height: 50%;
+    height: 300px;
   }
 
   .section3 h4 {
-    font-size: 8rem;
+    font-size: 6rem;
     line-height: 70px;
   }
 
-  .section3 h4 span{
-    font-size: 10rem;
+  #section3-p1 {
+    font-size: 3rem;
   }
 
+  .section3-subtitle {
+    width: 100%;
+
+  }
+
+  #section3-texto1-span2 {
+    font-size: 2rem;
+  }
 }
 
 
@@ -879,7 +932,7 @@ h3 {
     margin-top: 100px;
   }
   
-  button.section3 {
+  .section3-botao {
     font-size: 2.2rem;
     padding: 10px 20px;
 
@@ -888,8 +941,16 @@ h3 {
   }
 
   .section3 h4 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
+
+  #section3-texto1-span2 {
+    font-size: 1.5rem;
+  }
+
+  .section3-subtitle p {
+    font-size: 2rem;
+  } 
   
 }
 
@@ -925,9 +986,8 @@ section.section4 {
 }
 
 .student-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
-  gap: 20px;
+  display: flex;
+  flex-direction: column;
 
   width: 100%;
   padding: 0 50px;
@@ -945,8 +1005,14 @@ section.section4 {
 .student-video {
   border-radius: 8px;
   border: none;
-  width: 100%;
-  height: 250px;
+  height: 500px;
+}
+
+.video-row {
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: 30px;
 }
 
 .student-row {
@@ -996,7 +1062,7 @@ section.section4 {
   padding: 0 10px;
 }
 
-button.section4 {
+a.section4 {
   
   margin-top: 70px;
 
@@ -1021,7 +1087,7 @@ box-shadow: 0px 0px 35px -3px rgba(0,0,0,0.75);
 }
 
 
-button.section4:hover {
+a.section4:hover {
   background-color: #144b9e;
 }
 
@@ -1042,9 +1108,23 @@ button.section4:hover {
   }
 }
 
+@media (max-width: 1000px) {
+  .student-video {
+    margin-top: 30px;
+    width: 40%;
+    height: auto;
+  }
+}
+
 @media(max-width: 950px) {
   .student-list {
     flex-direction: column;
+  }
+
+  .student-video {
+    margin-top: 30px;
+    width: 40%;
+    height: auto;
   }
 }
 
@@ -1053,6 +1133,24 @@ button.section4:hover {
 
   section.section4 {
     padding-top: 100px;
+  }
+
+.video-row {
+    flex-direction: column;
+
+    align-items: center;
+
+    margin: 0;
+  }
+
+  .student-video {
+    margin-top: 30px;
+    width: 70%;
+    height: auto;
+  }
+
+  .section4 h5 {
+    margin-bottom: 0;
   }
 }
 
@@ -1089,7 +1187,7 @@ button.section4:hover {
   }
 
   
-button.section4 {
+a.section4 {
     font-size: 3rem;
     margin: 20px;
 }
@@ -1148,7 +1246,7 @@ section.section5 {
 }
 
 
-button.section5 {
+a.section5 {
   margin-top: 50px;
 
   margin-bottom: 0px;
@@ -1173,7 +1271,7 @@ button.section5 {
   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 }
 
-button.section5:hover {
+a.section5:hover {
   background-color: #144b9e;
 }
 
@@ -1214,7 +1312,7 @@ button.section5:hover {
     padding-bottom: 30px;
   }
   .section5 h2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .section5 .medalha {
@@ -1224,7 +1322,7 @@ button.section5:hover {
   }
 
   .section5 p.subtitle {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   
   .section5 p.text {
@@ -1232,7 +1330,7 @@ button.section5:hover {
     width: 90%;
   }
 
-  button.section5 {
+  a.section5 {
     font-size: 2rem;
   }
 
@@ -1357,6 +1455,10 @@ section.section7 {
   z-index: 2;
   position: relative;
   border-top-left-radius: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .pergunta {
@@ -1378,13 +1480,12 @@ section.section7 {
   transform: translateY(-95%);
 }
 
-button.section7 {
+a.section7 {
+  text-align: center;
   background-color: #0268CD;
   border: none;
   border-radius: 8px;
   margin-top: 35px;
-  margin-left: 50%;
-  transform: translateX(-50%);
   font-family: bebas-neue-by-fontfabric,sans-serif;
   font-weight: 600;
 
@@ -1402,7 +1503,7 @@ button.section7 {
   transition: 0.3s;
 }
 
-button.section7:hover {
+a.section7:hover {
   background-color: #144b9e;
 }
 
@@ -1420,7 +1521,7 @@ button.section7:hover {
 }
 
 @media(max-width: 700px) {
-  button.section7 {
+  a.section7 {
     font-size: 2rem;
   }
 }
@@ -1437,13 +1538,13 @@ button.section7:hover {
     font-size: 1.5rem;
   }
 
-  button.section7 {
+  a.section7 {
     font-size: 1.5rem;
   }
 }
 
 @media(max-width: 500px) {
-  button.section7 {
+  a.section7 {
     width: 100%;
     font-size: 2.8rem;
   }
@@ -1549,8 +1650,16 @@ button.section8:hover {
 
 @media(max-width: 870px) {
 
+  .section8 h5 {
+    font-size: 5rem;
+  }
+
   section.section8 {
     padding-top: 100px;
+  }
+
+  .section8 ul {
+    font-size: 2rem;
   }
 }
 
