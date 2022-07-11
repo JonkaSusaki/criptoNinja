@@ -979,8 +979,10 @@ section.section4 {
   color: #fff;
   font-family: bebas-neue-by-fontfabric,sans-serif;
   font-weight: 600;
-  font-size: 10rem;
+  font-size: 8rem;
   letter-spacing: 4px;
+
+  text-align: center;
 
   margin-bottom: 50px;
 }
@@ -1117,6 +1119,9 @@ a.section4:hover {
 }
 
 @media(max-width: 950px) {
+  .section4 h5 {
+    font-size: 5rem;
+  }
   .student-list {
     flex-direction: column;
   }
@@ -1157,7 +1162,7 @@ a.section4:hover {
 
 @media(max-width: 500px) {
   .section4 h5 {
-    font-size: 6rem;
+    font-size: 4rem;
   }
 
   .student-list {
