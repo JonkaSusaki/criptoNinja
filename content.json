@@ -3,7 +3,7 @@
     "titulo": "Comunidade CriptoNinja",
     "botao": {
       "span1": "QUERO FAZER PARTE DA COMUNIDADE",
-      "span2": "Apenas R$69,90 por mês"
+      "span2": ""
     },
     "descricao": {
       "paragrafo1": "Descubra as melhores oportunidades do mercado de criptomoedas e NFT.",
@@ -121,24 +121,24 @@
   "section8": {
     "perguntas": [
       {
-        "p": "Qual a forma de pagamento?",
-        "r": "Cartão de crédito"
+        "p": "O que eu vou encontrar na Comunidade Criptoninja?",
+        "r": "Informações exclusivas sobre os mercados de criptomoedas e NFT, interação com os maiores especialistas do Brasil."
       },
       {
-        "p": "E se eu me arrepender da compra?",
-        "r": "Você tem 7 dias para pedir seu dinheiro de volta"
+        "p": "O conteúdo serve pra quem está começando?",
+        "r": "Sim, os conteúdos são para todos os níveis. Lá ninguém julga ninguém! "
       },
       {
-        "p": "O conteúdo serve para quem está começando?",
-        "r": "Atende todos os níveis de investidores"
+        "p": "Preciso pagar para entrar na comunidade?",
+        "r": "Não, o acesso para a comunidade é gratuito. Temos uma opção premium para quem quiser se aprofundar no assunto."
       },
       {
-        "p": "Qual o preço para assinar?",
-        "r": "Apenas R$69,90 por mês"
+        "p": "Preciso ter o Discord para acessar a comunidade?",
+        "r": "Sim! Acreditamos que o Discord é a melhor ferramenta para que você tenha a melhor experiência."
       },
       {
         "p": "Vou poder tirar dúvidas?",
-        "r": "Claro, você vai fazer parte do canal exclusivo no telegram"
+        "r": "Claro, você vai ter acesso ao criador da comunidade e todos os moderadores."
       }
     ]
   }

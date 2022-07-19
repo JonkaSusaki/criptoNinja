@@ -179,24 +179,24 @@ fetch("./content.json")
     //#endregion
 
     //#region SECTION 5
-    document
-    .getElementById('section5-titulo-span1')
-    .textContent = data.section5.titulo.span1
-    document
-    .getElementById('section5-titulo-span2')
-    .textContent = data.section5.titulo.strong
-    document
-    .getElementById('section5-subtitulo')
-    .textContent = data.section5.subtitulo
-    document
-    .getElementById('section5-texto-span1')
-    .textContent = data.section5.texto.span1
-    document
-    .getElementById('section5-texto-span2')
-    .textContent = data.section5.texto.span2
-    document
-    .getElementById('section5-botao')
-    .textContent = data.section5.botao
+    // document
+    // .getElementById('section5-titulo-span1')
+    // .textContent = data.section5.titulo.span1
+    // document
+    // .getElementById('section5-titulo-span2')
+    // .textContent = data.section5.titulo.strong
+    // document
+    // .getElementById('section5-subtitulo')
+    // .textContent = data.section5.subtitulo
+    // document
+    // .getElementById('section5-texto-span1')
+    // .textContent = data.section5.texto.span1
+    // document
+    // .getElementById('section5-texto-span2')
+    // .textContent = data.section5.texto.span2
+    // document
+    // .getElementById('section5-botao')
+    // .textContent = data.section5.botao
     //#endregion
 
     //#region SECTION 8

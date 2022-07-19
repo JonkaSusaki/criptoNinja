@@ -579,49 +579,49 @@ b.section2-title {
 }
 
 .section2-card1 {
-  background: url("assets/section2card1.webp");
+  background: url("assets/section2card1.png");
   background-position: 80% 50%;
   background-size: cover;
 }
 
 
 .section2-card2 {
-  background: url("assets/section2card2.webp");
+  background: url("assets/section2card2.png");
   background-position: 80% 30%;
   background-size: cover;
 }
 
 
 .section2-card3 {
-  background: url("assets/section2card3.webp");
+  background: url("assets/section2card3.png");
   background-position: 50% 30%;
   background-size: cover;
 }
 
 
 .section2-card4 {
-  background: url("assets/section2card4.webp");
+  background: url("assets/section2card4.png");
   background-position: 50% 30%;
   background-size: cover;
 
 }
 
 .section2-card5 {
-  background: url("assets/section2card5.webp");
+  background: url("assets/section2card5.png");
   background-size: cover;
   background-position: 50% 30%;
 
 }
 
 .section2-card6 {
-  background: url("assets/section2card6.webp");
+  background: url("assets/section2card6.png");
   background-size: cover;
   background-position: 85% 30%;
 
 }
 
 .section2-card7 {
-  background: url("assets/section2card7.webp");
+  background: url("assets/section2card7.png");
   background-size: cover;
   background-position: 85% 30%;
 }
@@ -759,6 +759,7 @@ h3 {
     text-align: center;
     font-family: bebas-neue-by-fontfabric,sans-serif;
     font-weight: 400;
+    width: 50%;
   }
 
   .section3-subtitle p {
@@ -766,6 +767,7 @@ h3 {
     font-family: 'Montserrat',sans-serif;
     font-weight: 400;
     font-size: 2.5rem;
+    padding: 0;
   }
 
   #section3-texto1-span2 {
@@ -1563,14 +1565,14 @@ a.section7:hover {
 /* ====================================================== */
 
 section.section8 {
-  background-color: #101010;
+  background-color: #ededed;
 
   display: flex;
   flex-direction: column;
   align-items: center;
 
   padding-top: 170px;
-  color: #fff;
+  color: #101010;
 
   position: relative;
 
@@ -1578,7 +1580,7 @@ section.section8 {
 
 .section8 h5 {
   
-  color: #fff;
+  color: #101010;
   font-family: bebas-neue-by-fontfabric,sans-serif;
   font-weight: 600;
   font-size: 10rem;
